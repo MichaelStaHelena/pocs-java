@@ -1,0 +1,11 @@
+target/
+.git/
+.idea/
+.vscode/
+*.iml
+.DS_Store
+README.md
+CLAUDE.md
+.env
+.env.*
+!.env.example
