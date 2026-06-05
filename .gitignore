@@ -1,0 +1,14 @@
+# Build output
+target/
+build/
+
+# Compiled classes
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
