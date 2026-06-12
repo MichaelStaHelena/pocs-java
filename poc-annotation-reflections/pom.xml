@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.michael.poc</groupId>
-    <artifactId>poc-annotation-reflection</artifactId>
+    <artifactId>poc-annotation-reflections</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>poc-annotation-reflection</name>
+    <name>poc-annotation-reflections</name>
 
     <properties>
         <maven.compiler.release>25</maven.compiler.release>
@@ -28,6 +28,18 @@
                 <configuration>
                     <mainClass>com.michael.poc.Main</mainClass>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>basics</id>
+                        <goals><goal>java</goal></goals>
+                        <configuration><mainClass>com.michael.poc.Main</mainClass></configuration>
+                    </execution>
+                    <execution>
+                        <id>values</id>
+                        <goals><goal>java</goal></goals>
+                        <configuration><mainClass>com.michael.poc.FieldValuesMain</mainClass></configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
