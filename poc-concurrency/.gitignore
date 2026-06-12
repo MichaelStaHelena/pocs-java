@@ -1,0 +1,19 @@
+# Maven
+target/
+
+# Compiled
+*.class
+*.jar
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# OS
+.DS_Store
+Thumbs.db
